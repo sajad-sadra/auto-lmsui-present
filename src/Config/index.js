@@ -17,7 +17,7 @@ module.exports = {
     },
 
     browser_launch_config: {
-        executablePath: "/opt/google/chrome/chrome",
+        executablePath: "/usr/bin/google-chrome",
         headless: false
     }
 
