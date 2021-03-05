@@ -4,7 +4,7 @@
   "description": "auto login to lms.ui.ac.ir and set present in classes",
   "main": "app.js",
   "scripts": {
-    "test": "clear ; export $(cat sample.env | xargs) && node app.js",
+    "test": "clear ; export $(cat sample.env | xargs) && nodemon app.js",
     "start": "node app.js"
   },
   "repository": {
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/sajad-sadra/auto-lmsui-present#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
     "node-html-parser": "^3.0.4",
     "puppeteer-core": "^8.0.0"
   }
