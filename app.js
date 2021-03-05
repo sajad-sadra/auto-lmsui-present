@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log("------");
+require("dotenv").config();
+
+require("./src/index")();
