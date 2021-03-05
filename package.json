@@ -1,0 +1,32 @@
+{
+  "name": "auto_lms",
+  "version": "1.0.0",
+  "description": "auto login to lms.ui.ac.ir and set present in classes",
+  "main": "app.js",
+  "scripts": {
+    "test": "clear ; nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajad-sadra/auto-lmsui-present.git"
+  },
+  "keywords": [
+    "Puppeteer",
+    "university",
+    "cheet",
+    "present",
+    "class"
+  ],
+  "author": "Sajad Sadrayieh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajad-sadra/auto-lmsui-present/issues"
+  },
+  "homepage": "https://github.com/sajad-sadra/auto-lmsui-present#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-html-parser": "^3.0.4",
+    "puppeteer-core": "^8.0.0"
+  }
+}
