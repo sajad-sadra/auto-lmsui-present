@@ -1,0 +1,1 @@
+module.exports = () => (Date().replace(" (Iran Standard Time)", "").split(" ").join("_"));

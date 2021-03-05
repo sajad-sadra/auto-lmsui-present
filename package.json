@@ -4,7 +4,7 @@
   "description": "auto login to lms.ui.ac.ir and set present in classes",
   "main": "app.js",
   "scripts": {
-    "test": "clear ; nodemon app.js",
+    "test": "clear ; export $(cat sample.env | xargs) && node app.js",
     "start": "node app.js"
   },
   "repository": {
