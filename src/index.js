@@ -8,7 +8,7 @@ module.exports = async () => {
     let class_link = undefined;
 
     do {
-        log("checking for", "on-helding", "classes")
+        log("checking for", "on-helding", "classes");   
         class_link = await check();
         await new Promise(r => setTimeout(r, baseTimeOut * 10)); // wait for next check
     } while (class_link === undefined)

@@ -5,11 +5,11 @@ module.exports = {
     baseUrl: "http://lms.ui.ac.ir",
     helding_class_flag: "برگزاری",
     baseTimeOut: 1000,
-    welcome_message: "Salam",
+    welcome_message: "",
     credentials: {
         phpssid: process.env.SSID,
-        username: process.env.USER,
-        password: process.env.PASS
+        username: process.env.USERNAME,
+        password: process.env.PASSWORD
     },
 
     get screenshot_path() {
