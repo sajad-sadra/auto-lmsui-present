@@ -5,7 +5,7 @@ module.exports = {
     baseUrl: "http://lms.ui.ac.ir",
     helding_class_flag: "برگزاری",
     baseTimeOut: 1000,
-    welcome_message: "",
+    welcome_message: "Salam",
     credentials: {
         phpssid: process.env.SSID,
         username: process.env.USERNAME,
