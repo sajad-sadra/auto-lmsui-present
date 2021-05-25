@@ -32,7 +32,7 @@ module.exports = async (link) => {
     (await page.$("#message-input")).click();
     await page.waitForTimeout(config.baseTimeOut * 3);
     await page.keyboard.type(config.welcome_message);
-    //await page.keyboard.press("Enter");
+    await page.keyboard.press("Enter");
 
     await page.waitForTimeout(config.baseTimeOut);
 

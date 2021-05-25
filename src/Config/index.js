@@ -8,7 +8,7 @@ module.exports = {
     welcome_message: "Salam",
     credentials: {
         phpssid: process.env.SSID,
-        username: process.env.USERNAME,
+        username: process.env.LMS_USERNAME,
         password: process.env.PASSWORD
     },
 
